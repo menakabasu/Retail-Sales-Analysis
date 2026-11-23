@@ -1,288 +1,338 @@
-# Retail Sales Analysis using SQL Server and Microsoft Excel
+RETAIL SALES ANALYSIS SQL SERVER AND EXCEL DATA ANALYTICS PROJECT
+
+1.  PROJECT OVERVIEW
+
+This project analyses retail sales data to understand business
+performance across time, products, categories, brands, customers,
+inventory and geographical markets.
+
+The project uses SQL Server for data preparation and analysis and
+Microsoft Excel for reporting, KPI presentation, tables and charts. The
+objective is to turn sales data into clear business findings and
+practical recommendations.
 
-## 1. Project Overview
-
-This project focuses on analysing retail sales data using Microsoft Excel and Microsoft SQL Server to evaluate business performance, identify sales trends and generate actionable business insights.
-
-The project follows an end-to-end data analysis workflow, starting with data cleaning in Excel, followed by database management and business analysis using SQL Server, and finally developing analytical reports and visualisations in Excel.
-
-The main objective is to transform raw sales data into meaningful information that supports data-driven business decisions.
-
-## 2. Project Objectives
-
-- Analyse overall sales performance and revenue trends.
-- Evaluate product and category performance.
-- Understand customer purchasing behaviour and retention.
-- Identify brand sales growth and decline.
-- Analyse inventory and stock availability.
-- Compare sales performance across different time periods.
-- Provide business insights and recommendations based on analytical findings.
-
-## 3. Tools and Technologies
-
-| Tool | Purpose |
-|---|---|
-| Microsoft Excel | Initial data cleaning and reporting |
-| Microsoft SQL Server | Database management and data analysis |
-| SQL Server Management Studio (SSMS) | Writing and executing SQL queries |
-| Power Query | Connecting Excel to SQL Server and retrieving analytical data |
-
-## 4. Dataset Description
-
-The project uses three datasets:
-
-1. Sales Dataset – Contains sales transaction information.
-2. Products Dataset – Contains product details and inventory information.
-3. Customers Dataset – Contains customer information.
-
-The datasets were reviewed and cleaned before being imported into SQL Server.
-
-## 5. Data Cleaning – Microsoft Excel
-
-Initial data cleaning and preparation were performed using Microsoft Excel.
-
-Key activities included:
-
-- Identifying missing and invalid values.
-- Checking duplicate records.
-- Correcting inconsistent data formats.
-- Reviewing data quality issues.
-- Preparing datasets for SQL Server import.
-
-The cleaned datasets were subsequently imported into SQL Server for further analysis.
-
-## 6. Database Management – SQL Server
-
-Microsoft SQL Server was used to organise the cleaned datasets into structured database tables.
-
-Key activities included:
-
-- Creating the database and tables.
-- Importing cleaned datasets.
-- Establishing relationships between tables.
-- Defining primary and foreign keys.
-- Creating analytical SQL views.
-
-## 7. SQL Concepts Used
-
-The following SQL concepts and techniques were applied:
-
-- SELECT, WHERE and ORDER BY
-- GROUP BY and aggregate functions
-- INNER JOIN and LEFT JOIN
-- CASE statements
-- Common Table Expressions (CTEs)
-- Subqueries
-- Window functions
-- RANK and ROW_NUMBER
-- LAG and NTILE
-- Date functions
-- NULLIF and conditional calculations
-- Views
-
-These techniques were used to clean, transform, aggregate and analyse sales data.
-
-## 8. Business Analysis
-
-The project covers the following analytical areas:
-
-### 8.1 Overall Sales Analysis
-- Total sales revenue.
-- Annual sales performance.
-- Sales contribution.
-- Overall business performance.
-
-### 8.2 Monthly Sales Trend Analysis
-- Monthly revenue trends.
-- Month-on-month sales growth.
-- Monthly sales increases and declines.
-- Identification of significant sales fluctuations.
-
-### 8.3 Product Performance Analysis
-- Product-level sales performance.
-- Best-performing and declining products.
-- Product sales contribution.
-- Product performance comparisons.
-
-### 8.4 Category Performance Analysis
-- Sales performance by product category.
-- Category-level revenue contribution.
-- Growing and declining categories.
-- Comparison of category performance across periods.
-
-### 8.5 Customer Analysis and Retention
-- Customer purchasing behaviour.
-- Customer sales contribution.
-- Customer segmentation.
-- High-value, medium-value and low-value customers.
-- H1 2024 versus H1 2025 sales comparison.
-
-### 8.6 Brand Sales Gap Analysis
-- Brand-level sales comparison.
-- H1 2024 versus H1 2025 performance.
-- Sales gap identification.
-- Brand growth and decline classification.
-
-### 8.7 Inventory Analysis
-- Inventory status distribution.
-- Stock availability.
-- Inventory and sales performance.
-- Identification of inventory-related opportunities.
-
-### 8.8 Year-on-Year Sales Analysis
-- Annual sales comparison.
-- Year-on-year revenue growth.
-- Sales performance changes.
-- Identification of significant annual trends.
-
-## 9. Excel Reporting and Visualisation
-
-Microsoft Excel was used to develop analytical reports and present business findings.
-
-The reporting process included:
-
-- Connecting Excel to SQL Server using Power Query.
-- Retrieving data from SQL analytical views.
-- Developing KPI summaries.
-- Creating sales performance tables.
-- Building charts and visualisations.
-- Presenting business insights and recommendations.
-
-## 10. Key Business Findings
-
-The following findings were identified from the sales analysis:
-
-### Overall Sales Performance
-
-| Year | Total Sales |
-|---|---:|
-| 2023 | £998,471 |
-| 2024 | £1,077,765 |
-| 2025 (January–June) | £625,166 |
-
-- Total recorded sales: approximately £2.70 million.
-- Sales increased by 7.94% in 2024 compared with 2023.
-- 2025 data covers only the first six months and should not be directly compared with full-year figures.
-
-### Category Performance
-
-- Health & Wellness recorded 355.99% growth in H1 2025 compared with H1 2024.
-- Office Supplies recorded an 81.29% decline over the same period.
-
-### Customer Analysis
-
-- Customer segmentation identified high-value, medium-value and low-value customer groups.
-- Customer sales performance was compared between H1 2024 and H1 2025.
-
-### Brand Performance
-
-- Brand-level sales comparisons identified growing and declining brands.
-- Some brands recorded no sales in H1 2025 despite generating sales in H1 2024.
-
-### Inventory Analysis
-
-- Inventory was analysed across different stock availability statuses.
-- Sales and inventory information was examined to identify potential stock management opportunities.
-
-## 11. Business Insights and Recommendations
-
-Based on the analysis, the following business recommendations are proposed.
-
-### Overall Sales Performance
-- Monitor monthly sales trends to identify significant fluctuations.
-- Investigate periods of declining sales.
-- Compare equivalent reporting periods for accurate performance evaluation.
-
-### Product Performance
-- Review consistently declining products.
-- Focus on products with strong sales contributions.
-- Evaluate pricing, availability and customer demand.
-
-### Category Performance
-- Investigate the significant decline in Office Supplies.
-- Explore opportunities to maintain and expand Health & Wellness growth.
-- Review category-level sales contributions to support business decisions.
-
-### Customer Retention
-- Develop targeted engagement strategies for high-value customers.
-- Monitor repeat purchasing behaviour.
-- Identify opportunities to improve customer retention.
-
-### Brand Performance
-- Investigate brands with no recorded sales in H1 2025.
-- Review product availability and customer demand.
-- Identify growing brands and opportunities to increase their sales contribution.
-
-### Inventory Management
-- Monitor stock availability regularly.
-- Identify potential stock shortages and excess inventory.
-- Align inventory planning with historical sales patterns and customer demand.
-
-### Year-on-Year Performance
-- Use like-for-like period comparisons.
-- Investigate significant changes in sales performance.
-- Monitor monthly growth and decline to identify emerging trends.
-
-## 12. Project Workflow
-
-The project followed these stages:
-
-1. Review raw sales, product and customer datasets.
-2. Perform initial data cleaning using Microsoft Excel.
-3. Import cleaned datasets into SQL Server.
-4. Create database tables and relationships.
-5. Develop SQL queries and analytical views.
-6. Perform business analysis using SQL Server.
-7. Connect Excel to SQL Server using Power Query.
-8. Develop KPI reports, tables and visualisations.
-9. Identify business findings and recommendations.
-
-## 13. Project Structure
-
-```text
-Retail-Sales-Analysis
-│
-├── 01_Data_Cleaning_Excel
-│   ├── Sales_Cleaned.xlsx
-│   ├── Products_Cleaned.xlsx
-│   └── Customers_Cleaned.xlsx
-│
-├── 02_SQL_Server
-│   ├── 01_Database_Setup
-│   ├── 02_Data_Import
-│   ├── 03_Overall_Sales
-│   ├── 04_Monthly_Sales_Trend
-│   ├── 05_Product_Analysis
-│   ├── 06_Category_Analysis
-│   ├── 07_Customer_Analysis
-│   ├── 08_Brand_Analysis
-│   ├── 09_Inventory_Analysis
-│   └── 10_YoY_Analysis
-│
-├── 03_Excel_Reporting
-│   ├── Sales_Analysis.xlsx
-│   └── Screenshots
-│
-└── README.md
-```
-
-## 14. Conclusion
-
-This project demonstrates the practical application of Microsoft Excel and SQL Server in an end-to-end retail sales analysis workflow.
-
-By combining data cleaning, database management, SQL analysis and Excel reporting, the project transforms raw data into meaningful business insights.
-
-It also demonstrates the ability to analyse business performance, identify trends, investigate potential issues and develop recommendations to support data-driven decision-making.
-
-## 15. Skills Demonstrated
-
-- Data Cleaning and Preparation
-- Microsoft Excel
-- SQL Server
-- SQL Query Development
-- Data Transformation
-- Data Analysis
-- KPI Reporting
-- Data Visualisation
-- Business Insights
-- Analytical Problem-Solving
+The analysis covers sales transactions from 2023 to 28 June 2025. As
+2025 contains only six months of data, comparisons between 2024 and 2025
+use the equivalent January-June period wherever appropriate.
+
+2.  BUSINESS OBJECTIVES
+
+The main objectives are to: - Measure overall sales performance and
+annual growth. - Understand monthly sales trends and identify
+significant changes. - Identify high-performing and declining products
+and categories. - Compare brand performance between H1 2024 and H1
+2025. - Analyse customer contribution and changes in high-value customer
+activity. - Review inventory availability alongside product sales. -
+Identify geographical markets and cities with strong or declining
+sales. - Translate analysis results into evidence-based business
+recommendations.
+
+3.  TOOLS AND TECHNOLOGIES
+
+-   Microsoft Excel: reporting, KPI summaries, analysis tables and
+    charts.
+-   Power Query: data preparation and transformation where applicable.
+-   Microsoft SQL Server: data storage, querying, data analysis and
+    reusable SQL views.
+-   SQL: SELECT, filtering, aggregation, GROUP BY, JOINs, CTEs, CASE
+    expressions, date functions and window functions.
+
+4.  DATASET OVERVIEW
+
+The project uses sales transaction data and related customer, product
+and inventory information.
+
+Key workbook measures include: - Total sales: £2,701,402 (approximately
+£2.70 million). - Total orders: 1,000. - Total quantity sold: 5,389. -
+Customers: 638. - Products shown in the overall sales KPI: 614. -
+Average order value: approximately £2,701. - Average unit price:
+approximately £503.
+
+The Inventory Analysis worksheet covers 1,000 product records. This is a
+separate inventory analysis population and should not be confused with
+the 614 products shown in the overall sales KPI.
+
+5.  ANALYSIS AND REPORTING
+
+The Excel workbook contains the following analysis areas:
+
+5.1 Overall Sales Analysis - Total sales, orders, quantity, customers
+and product KPIs. - Annual sales performance and year-on-year growth. -
+Summary of the main business findings.
+
+5.2 Monthly Sales Trend Analysis - Monthly sales trends across 2023,
+2024 and available 2025 data. - Month-on-month growth. - H1 2024 versus
+H1 2025 comparison. - Identification of significant monthly increases
+and declines.
+
+5.3 Brand Analysis - Brand-level sales performance. - Top-performing
+brands. - H1 2024 versus H1 2025 brand sales gap. - Identification of
+growing and declining brands.
+
+5.4 Customer Analysis - Customer sales contribution. - High Value,
+Medium Value and Low Value customer segmentation. - Customer sales
+comparison and customer activity.
+
+5.5 Customer Retention and Year-on-Year Analysis - High-value customer
+activity in H1 2024 versus H1 2025. - Customers with increased or
+decreased sales. - Customers with lost sales. - New or reactivated
+high-value customers.
+
+5.6 Inventory Analysis - Inventory status, including In Stock, Limited
+Stock, Out of Stock, Backorder, Pre-order and Discontinued. - Comparison
+of product stock availability with sales performance. - Identification
+of products that may need further investigation.
+
+5.7 Products Requiring Attention - High-stock / low-sales products. -
+Stock conflicts. - Replenishment candidates. - Product-level suggested
+actions.
+
+5.8 Year-over-Year Sales Comparison - Annual sales and growth. -
+Identification of the strongest sales year. - Interpretation of 2025
+results in light of partial-year data.
+
+5.9 Product Sales Gap Analysis - Product-level sales comparisons. -
+Products with declining sales, no sales in the comparison period or new
+sales. - Potential inventory and demand issues requiring investigation.
+
+5.10 Geographical Analysis - Country-level sales performance and
+contribution. - Growing and declining geographical markets. - Top 10
+cities by sales. - Further investigation of declining markets by city,
+product and category.
+
+5.11 Product and Category Analysis - Top products by sales. -
+Product-level performance. - Category sales contribution. - H1 2024
+versus H1 2025 category growth.
+
+6.  KEY BUSINESS FINDINGS
+
+6.1 Overall Sales Performance
+
+-   Total sales across the analysis period were £2,701,402.
+-   Sales increased from £998,471 in 2023 to £1,077,765 in 2024,
+    representing 7.94% growth.
+-   Sales recorded for 2025 were £625,166, covering January to 28 June
+    only.
+-   H1 2024 sales were £560,216 and H1 2025 sales were £625,166.
+-   This represents an increase of approximately 11.59% in the
+    comparable six-month period.
+
+The 2025 annual figure must not be interpreted as a complete-year
+result.
+
+6.2 Monthly Sales Trends
+
+-   Monthly sales fluctuated throughout the analysis period.
+-   April was the strongest month in the available 2025 data, with sales
+    of £129,173.
+-   June 2025 sales were £75,036, compared with £93,717 in June 2024.
+-   This represents a decrease of approximately 19.9% year on year for
+    June.
+-   The dataset ends on 28 June 2025; July to December 2025 sales are
+    not available.
+
+6.3 Product and Category Performance
+
+-   The workbook includes analysis of product sales, sales gaps and
+    category contribution.
+-   Health & Wellness increased from £6,581 in H1 2024 to £30,009 in H1
+    2025, a growth of approximately 355.99%.
+-   Kitchen Appliances increased from £5,896 to £27,884, a growth of
+    approximately 372.93%.
+-   Office Supplies declined from £22,340 to £4,179, a decrease of
+    approximately 81.29%.
+-   Fragrances declined by approximately 74.72%.
+-   Cycling declined by approximately 66.12%.
+
+These results identify categories for further investigation; sales
+growth alone does not establish profitability.
+
+6.4 Customer Performance and Retention
+
+-   Customer analysis covers 638 customers.
+-   Customers are grouped into High Value, Medium Value and Low Value
+    segments.
+-   In the H1 comparison, the high-value customer activity analysis
+    identified:
+    -   14 customers with increased sales.
+    -   13 customers with decreased sales.
+    -   45 customers with lost sales.
+    -   46 new or reactivated high-value customers.
+
+These groups provide a basis for targeted retention and customer
+engagement analysis.
+
+6.5 Brand Performance
+
+-   The H1 2024 versus H1 2025 Brand Sales Gap Analysis covers 328
+    brands.
+-   167 brands were classified as growing.
+-   157 brands were classified as declining.
+-   The combined sales gap shown in the worksheet is £64,950.
+
+Brand-level changes should be investigated further to identify the
+products and markets contributing to the movement.
+
+6.6 Inventory Performance
+
+The Inventory Analysis worksheet covers 1,000 product records. Its
+inventory status summary is: - Backorder: 196. - Limited Stock: 166. -
+Discontinued: 162. - Pre-order: 160. - Out of Stock: 159. - In Stock:
+157.
+
+The Products Requiring Attention worksheet identifies: - 424 high-stock
+/ low-sales cases. - 159 stock conflicts. - 97 replenishment candidates.
+
+These categories are indicators for review and should be checked against
+current stock, supplier and demand information before operational
+decisions are made.
+
+6.7 Geographical Performance
+
+-   Country-level analysis covers 227 countries.
+-   The geographical summary identifies 39 declining countries and 37
+    growing countries.
+-   The workbook also includes country sales contribution, top 10 cities
+    and a geographical decline investigation.
+-   The decline investigation allows the business to examine products
+    and categories within affected markets.
+
+7.  BUSINESS RECOMMENDATIONS
+
+The following recommendations are based on the findings presented in the
+Excel analysis.
+
+7.1 Improve Overall Sales Performance
+
+-   Monitor monthly sales performance and investigate significant
+    declines promptly.
+-   Investigate the June 2025 decline by reviewing the products,
+    categories and markets contributing to the reduction.
+-   Continue monitoring the positive H1 2025 result against the
+    equivalent H1 2024 period.
+-   Use like-for-like periods when comparing years.
+-   Update the annual analysis when the remaining 2025 data becomes
+    available.
+
+7.2 Strengthen Product and Category Performance
+
+-   Maintain appropriate stock levels for products with consistently
+    strong sales.
+-   Investigate declining products to understand whether changes relate
+    to demand, pricing, availability or other factors.
+-   Review the growth in Health & Wellness and Kitchen Appliances to
+    identify the products contributing to the increase.
+-   Prioritise further investigation of Office Supplies, Fragrances and
+    Cycling because of their substantial H1 sales declines.
+-   Consider targeted promotions only where stock, margin and commercial
+    conditions support them.
+
+7.3 Improve Customer Retention
+
+-   Prioritise engagement with high-value customers who recorded lost or
+    decreased sales.
+-   Investigate changes in purchasing behaviour before selecting
+    retention actions.
+-   Monitor new or reactivated high-value customers to understand
+    whether their activity continues.
+-   Use customer segments to support relevant and focused engagement
+    rather than applying the same approach to every customer group.
+
+7.4 Improve Brand Performance
+
+-   Identify the brands contributing most to the overall decline.
+-   Investigate the products responsible for changes in brand sales.
+-   Review demand, pricing and product availability before deciding on
+    corrective action.
+-   Monitor growing brands and assess whether there are commercially
+    viable opportunities to support further growth.
+
+7.5 Optimise Inventory Management
+
+-   Review the 97 replenishment candidates against recent sales demand
+    and current stock availability.
+-   Investigate stock conflicts and confirm whether product stock and
+    availability records are accurate.
+-   Review high-stock / low-sales products to identify possible excess
+    inventory.
+-   Check backorder and limited-stock products to understand supplier or
+    replenishment issues.
+-   Review discontinued and out-of-stock products before making stock
+    decisions.
+-   Use historical sales patterns alongside current demand and supplier
+    lead times when planning inventory.
+
+7.6 Improve Geographical Market Performance
+
+-   Monitor countries and cities with strong sales contribution.
+-   Investigate declining countries at product and category level to
+    identify the sources of the decline.
+-   Compare the performance of brands and products within affected
+    markets.
+-   Consider market-specific actions only after reviewing demand,
+    availability and other relevant business factors.
+-   Track country-level sales growth and contribution regularly.
+
+8.  OVERALL BUSINESS CONCLUSION
+
+The project demonstrates how SQL Server and Excel can be used together
+to analyse retail sales and present findings in a business-focused
+format.
+
+The analysis identified overall sales growth in 2024 and an
+approximately 11.59% increase in H1 2025 compared with H1 2024. It also
+highlighted substantial differences between product categories, changes
+in brand performance, high-value customer activity, inventory issues and
+geographical markets requiring further investigation.
+
+The main business priorities are to: 1. Monitor sales trends and
+investigate significant declines. 2. Understand the products and
+categories driving growth or decline. 3. Improve engagement with
+high-value customers whose sales have reduced or stopped. 4. Investigate
+declining brands and geographical markets. 5. Align inventory decisions
+with product demand and availability. 6. Continue using comparable
+reporting periods and updated data for performance monitoring.
+
+The recommendations are intended to guide further investigation and
+support evidence-based business decisions. They do not establish the
+underlying causes of sales changes without additional operational,
+pricing, cost or customer research.
+
+9.  DATA LIMITATIONS AND INTERPRETATION
+
+-   The sales dataset ends on 28 June 2025. The 2025 figures are
+    partial-year figures.
+-   H1 comparisons use January to June for both 2024 and 2025. The
+    available 2025 data ends on 28 June.
+-   The overall sales KPI reports 614 products, while the Inventory
+    Analysis worksheet covers 1,000 product records. These are different
+    measures from different analysis areas.
+-   Sales revenue is not the same as profit. Profitability conclusions
+    would require reliable cost and margin data.
+-   Sales patterns identify where further investigation may be useful;
+    they do not by themselves prove why sales increased or declined.
+-   Inventory recommendations should be validated against current stock
+    records, supplier information and current demand before action is
+    taken.
+
+10. SKILLS DEMONSTRATED
+
+-   SQL querying and data analysis.
+-   Data aggregation and grouping.
+-   Date-based analysis and year-on-year comparisons.
+-   Common Table Expressions (CTEs).
+-   Joins and conditional logic.
+-   Window functions and ranking.
+-   Data validation and interpretation.
+-   Excel reporting and KPI presentation.
+-   Trend, product, category, customer and geographical analysis.
+-   Translating analytical findings into business recommendations.
+
+11. PROJECT OUTCOME
+
+This project provides an end-to-end example of using SQL Server to
+analyse sales data and Excel to communicate the results.
+
+It demonstrates the ability to investigate business questions, compare
+performance across different dimensions, identify areas requiring
+attention and present practical recommendations supported by analysis.
